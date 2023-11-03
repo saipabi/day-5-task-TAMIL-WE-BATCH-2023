@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ 
+    
+    class Movie {
+        Constructor(title, studio, rating) { 
+            this.title = "title";
+            this.studio = "studio";
+            this.rating = "rating";
+    };                         
+    getratingInfo() {
+        return "the rating is " +this.rating;
+    };
+
+    setratingInfo(rating) {
+        return this.rating = "PG 13";
+    }
+    getAllFilms(Movies){
+        return Movies.filter((M) =>M.rating ===PG);
+
+    }
+};
+    const Movie1 = new Movie("jailer", "Sun", "PG");
+    const Movie2 = new Movie("leo", "star", "PG 13");
+    const Movie3 = new Movie("thangalan", "moon", "PG");
+
+    console.log(Movie1);
+    console.log(Movie2);
+    console.log(Movie3);
+
+
+
+
+
+    class Movie {
+        Constructor(title = "Casino Royal", studio = "Eon Productions", rating = "PG13") { 
+            this.title = "title";
+            this.studio = "studio";
+            this.rating = "rating";
+    };
+
+}
+         
+    const film = new Movie("Casino Royal", "Eon Productions", "PG13");
+    console.log(film);
+
+    
+        </script>
+    
+</body>
+</html>
